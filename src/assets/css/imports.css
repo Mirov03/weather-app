@@ -1,0 +1,7 @@
+@import "fonts.css";
+@import 'bootstrap_custom.scss';
+@import "root.css";
+@import "class-styles.css";
+@import "loaders.css";
+@import "mainPage.css";
+@import "historyPage.css";

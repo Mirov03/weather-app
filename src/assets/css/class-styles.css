@@ -1,0 +1,15 @@
+.montserrat {
+    font-family: var(--montserrat);
+}
+
+.mitr {
+    font-family: var(--mitr);
+}
+
+.color-main {
+    color: var(--text-color);
+}
+
+.color-gray {
+    color: var(--text-color-gray);
+}
