@@ -25,15 +25,6 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
 	to.meta.title ? (document.title = to.meta.title) : (document.title = "Weather App");
 
-	// todo возможно доделаю
-	// window.addEventListener('blur', () => {
-	// 	document.title = 'Come back :с';
-	// });
-
-	// window.addEventListener('focus', () => {
-	// 	document.title = to.meta.title ? (document.title = to.meta.title) : (document.title = 'Weather App');
-	// });
-
 	next();
 });
 
